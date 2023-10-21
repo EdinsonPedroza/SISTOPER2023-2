@@ -1,0 +1,34 @@
+PUNTO 4.
+
+Estado inicial de la memoria:
+[--------------------------------------------------] 0/100 bytes usados
+
+Asignando 20 bytes al proceso 1 usando First-fit
+[##########----------------------------------------] 20/100 bytes usados
+
+Asignando 30 bytes al proceso 2 usando Best-fit
+[####################################--------------] 50/100 bytes usados
+
+Asignando 40 bytes al proceso 3 usando Worst-fit
+[##################################################] 90/100 bytes usados
+
+Liberando el bloque de memoria asignado al proceso 1
+[----------##########################--------------] 70/100 bytes usados
+
+Asignando 15 bytes al proceso 4 usando First-fit
+[#######---##########################--------------] 85/100 bytes usados
+
+Liberando el bloque de memoria asignado al proceso 3
+[#######-------------------------------------------] 45/100 bytes usados
+
+Asignando 25 bytes al proceso 5 usando Best-fit
+[#######---#############---------------------------] 70/100 bytes usados
+
+Liberando el bloque de memoria asignado al proceso 2
+[-----------------#############---------------------------] 45/100 bytes usados
+
+Liberando el bloque de memoria asignado al proceso 4
+[--------------------------#############------------------] 30/100 bytes usados
+
+Liberando el bloque de memoria asignado al proceso 5
+[--------------------------------------------------] 0/100 bytes usados
